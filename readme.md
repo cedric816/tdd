@@ -1,9 +1,9 @@
-## Template pour les katas  
-Ce projet est un modèle pour introduire les TDD dans les katas.   
-Le code doit être écrit dans un fichier js du répertoire src.  
-Les tests sont inclus dans le fichier correspondant du répertoire test.  
-Pour les premiers katas, on fournit les tests.   
-Par la suite, les apprenants auront mieux compris comment ça marche et écriront eux-mêmes leurs tests, pour travailler en mode TDD.  
-  
-Par la suite, le plus simple sera pour les apprenants de forker ce projet afin de l'adapter aux différents katas. En plus, ça veut dire que les solutions seront consultables sur les repos correspondants.   
-Si on part à un moment sur l'idée de leur faire bosser les katas par groupes de 3 ou 4, on peut forker une fois puis demander à chaque groupe de bosser sur sa propre branche.  
+# TDD
+
+- Cloner ce repo
+- Rechercher et expliquer avec vos mots les principes du tdd, et l'ajouter a ce Readme.
+- Observer fizzbuzz.test.js puis completer fizzbuzz.js pour qu'il passe les tests ("npm run test" pour lancer les tests)
+- Creer un fichier calc.js dans /src contenant une fonction calc()
+- Creer un fichier calc.test.js dans /test
+- Ecrire les test d'une fonction calc qui permet d'additionner/soustraire/multiplier/diviser 2 nombres envoyé a la fonction calc, avec gestion de toutes les erreurs possibles.
+- Une fois tout les test ecrits, commit, push puis developper la fonction calc.
