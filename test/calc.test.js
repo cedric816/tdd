@@ -20,5 +20,8 @@ describe("calc", () => {
     it("Should return the multiplication", () => {
         expect(calc(5, 10, '*')).to.equal(50);
     });
+    it("Should return an error if nb1 or nb2 is not a number", () => {
+        expect(calc(5, '10', '+')).to.equal("please give numbers");
+    });
 
 })
