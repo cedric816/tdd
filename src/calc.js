@@ -14,6 +14,9 @@ const calc = (nb1, nb2, operator) => {
     if (operator == '/' && nb2 == 0){
         return "division by 0 impossible";
     }
+    if (operator == '*'){
+        return nb1*nb2;
+    }
 }
 
 exports.calc = calc;

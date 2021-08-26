@@ -17,5 +17,8 @@ describe("calc", () => {
     it("Should return an error if nb2 is 0 for division", () => {
         expect(calc(5, 0, '/')).to.equal("division by 0 impossible");
     });
+    it("Should return the multiplication", () => {
+        expect(calc(5, 10, '*')).to.equal(50);
+    });
 
 })
