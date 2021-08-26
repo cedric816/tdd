@@ -8,3 +8,5 @@
 - Ecrire les test d'une fonction calc qui permet d'additionner/soustraire/multiplier/diviser 2 nombres envoyé a la fonction calc, 
 avec gestion de toutes les erreurs possibles, en utilisant la méthode tdd.
 - commit entre chaque ecriture de test et chaque ecriture de fonction
+
+TDD: on écrit les tests avant le code; ainsi on est sûr que toute l'appli sera testée
