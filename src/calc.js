@@ -1,6 +1,9 @@
 const calc = (nb1, nb2, operator) => {
-    if (!['+','-','*','/'].operator){
+    if (!['+','-','*','/'].includes(operator)){
         return "invalid operator";
+    }
+    if (operator == '+'){
+        return nb1+nb2;
     }
 }
 
