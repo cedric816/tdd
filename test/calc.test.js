@@ -8,5 +8,8 @@ describe("calc", () => {
     it("Should return the sum", () => {
         expect(calc(5, 10, '+')).to.equal(15);
     });
+    it("Should return the difference", () => {
+        expect(calc(5, 10, '-')).to.equal(-5);
+    });
 
 })
